@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800&display=swap");
+
+:root {
+  --base-color-red: #db524d;
+  --dark-shade-red: #c94b46;
+  --light-shade-red: #df645f;
+  --divider-bulletin-pink: #f59c99;
+  --text-white: #ffffff;
+  --text-grey: #e39c99;
+  --task-text-black: 000000;
+  --task-text-grey: #bbbbbb;
+  --headline-text: #541c1f;
+  --bread-text: #7a6062;
+  --emphasized-text: #e96d73;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
