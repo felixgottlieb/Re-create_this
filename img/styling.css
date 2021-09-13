@@ -22,4 +22,181 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "M PLUS Rounded 1c";
+  font-size: 100%;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 35vw 20vw 3.3vw 3.3vw 3.3vw 35vw;
+  grid-template-rows: 6vh;
+  background-color: var(--base-color-red);
+}
+
+#logotype_img {
+  height: 20px;
+  width: auto;
+  align-self: center;
+  color: white;
+}
+
+.logotype {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: flex-start;
+  align-self: center;
+  display: flex;
+  grid-gap: 5px;
+  color: white;
+  font-weight: 600;
+  border-bottom: #c94b46 solid 2px;
+}
+
+.header_item {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  background-color: var(--light-shade-red);
+  border-radius: 7px;
+  color: white;
+  font-size: 0.7rem;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+#header_item1 {
+  grid-column: 3;
+  grid-row: 1;
+  grid-gap: 3px;
+}
+
+#header_item2 {
+  grid-column: 4;
+  grid-row: 1;
+  grid-gap: 3px;
+}
+
+#header_item3 {
+  grid-column: 5;
+  grid-row: 1;
+  grid-gap: 3px;
+}
+
+.header_item_img {
+  height: 16px;
+  width: auto;
+  color: white;
+  align-self: center;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 30vh 5vh 5vh 10vh 10vh 10vh 10vh 20vh;
+  grid-template-columns: 38vw 24vw 38vw;
+  background-color: var(--base-color-red);
+}
+
+#timer_section {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: var(--light-shade-red);
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 15% 55% 30%;
+}
+
+ul {
+  grid-row: 1;
+  grid-column: 2;
+  list-style: none;
+  display: flex;
+  grid-gap: 20px;
+  font-size: 1rem;
+  color: white;
+}
+
+#pomodoro_text {
+  background-color: var(--dark-shade-red);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#timer {
+  grid-row: 2;
+  grid-column: 2;
+  justify-self: center;
+  align-self: center;
+  font-size: 5rem;
+  font-weight: 600;
+  color: white;
+}
+
+button {
+  grid-row: 3;
+  grid-column: 2;
+  justify-self: center;
+  align-self: flex-start;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--base-color-red);
+  border: none;
+}
+
+#working_section {
+  grid-row: 2;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+
+#working_section_text {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+#working_on {
+  font-size: 0.7rem;
+  color: var(--text-grey);
+}
+
+#task_section {
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  border-bottom: solid white 1px;
+}
+
+#task_text {
+  grid-row: 1;
+  grid-column: 1;
+  align-self: center;
+  justify-self: flex-start;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 800;
+}
+
+#task_img {
+  height: 15px;
+  color: white;
+  background-color: var(--light-shade-red);
+  border-radius: 3px;
+  grid-row: 1;
+  grid-column: 2;
+  align-self: center;
+  justify-self: flex-end;
 }
